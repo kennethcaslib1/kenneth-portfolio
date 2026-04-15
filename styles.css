@@ -33,9 +33,13 @@ body {
   color: var(--text);
   font-family: "Manrope", "Avenir Next", "Segoe UI", sans-serif;
   background:
+    url("images/site-background.jpg"),
     radial-gradient(circle at top left, rgba(183, 105, 63, 0.18), transparent 28%),
     radial-gradient(circle at right 20%, rgba(83, 97, 78, 0.2), transparent 25%),
     linear-gradient(180deg, #f8f1e7 0%, #f3ebdf 45%, #efe4d4 100%);
+  background-size: cover, auto, auto, auto;
+  background-position: center, center, center, center;
+  background-attachment: fixed, scroll, scroll, scroll;
 }
 
 a {
@@ -400,22 +404,31 @@ img {
   min-height: 100%;
 }
 
-.mosaic-card:nth-child(1) {
+.mosaic-card-portraits {
   background:
     linear-gradient(180deg, transparent, rgba(17, 11, 8, 0.65)),
+    url("images/home-portrait-sessions.jpg"),
     linear-gradient(135deg, #d39a62, #5c4738);
+  background-size: cover;
+  background-position: center;
 }
 
-.mosaic-card:nth-child(2) {
+.mosaic-card-events {
   background:
     linear-gradient(180deg, transparent, rgba(17, 11, 8, 0.65)),
+    url("images/home-event-coverage.jpg"),
     linear-gradient(135deg, #546a60, #2f3836);
+  background-size: cover;
+  background-position: center;
 }
 
-.mosaic-card:nth-child(3) {
+.mosaic-card-brand {
   background:
     linear-gradient(180deg, transparent, rgba(17, 11, 8, 0.65)),
+    url("images/home-brand-storytelling.jpg"),
     linear-gradient(135deg, #b7693f, #6d3725);
+  background-size: cover;
+  background-position: center;
 }
 
 .cta-band {
