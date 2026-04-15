@@ -284,7 +284,36 @@ img {
   background:
     linear-gradient(180deg, transparent, rgba(20, 17, 15, 0.68)),
     linear-gradient(135deg, rgba(183, 105, 63, 0.72), rgba(83, 97, 78, 0.7));
+  background-size: cover;
+  background-position: center;
   color: white;
+}
+
+.stat-card-focus {
+  background:
+    linear-gradient(180deg, transparent, rgba(20, 17, 15, 0.74)),
+    url("images/home-focus.jpg"),
+    linear-gradient(135deg, rgba(183, 105, 63, 0.72), rgba(83, 97, 78, 0.7));
+  background-size: cover;
+  background-position: center;
+}
+
+.stat-card-style {
+  background:
+    linear-gradient(180deg, transparent, rgba(20, 17, 15, 0.74)),
+    url("images/home-style.jpg"),
+    linear-gradient(135deg, rgba(183, 105, 63, 0.72), rgba(83, 97, 78, 0.7));
+  background-size: cover;
+  background-position: center;
+}
+
+.stat-card-available {
+  background:
+    linear-gradient(180deg, transparent, rgba(20, 17, 15, 0.74)),
+    url("images/home-available.jpg"),
+    linear-gradient(135deg, rgba(183, 105, 63, 0.72), rgba(83, 97, 78, 0.7));
+  background-size: cover;
+  background-position: center;
 }
 
 .stat-card strong {
