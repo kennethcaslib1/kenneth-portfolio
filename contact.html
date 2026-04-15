@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Kenneth's Photography and Videography</title>
+  <meta
+    name="description"
+    content="Contact Kenneth for photography and videography bookings, collaborations, and creative projects."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="brand" href="index.html">
+        <span class="brand-kicker">Visual storyteller</span>
+        <span class="brand-name">Kenneth's Photography and Videography</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="photography.html">Photography</a>
+        <a href="videography.html">Videography</a>
+        <a href="about.html">About Me</a>
+        <a class="active" href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="contact-layout">
+        <div class="contact-copy">
+          <p class="eyebrow">Contact</p>
+          <h1>Book a shoot, ask a question, or start a collaboration.</h1>
+          <p>
+            If you’re interested in portraits, event coverage, social content, or a custom creative
+            project, I’d love to hear what you have in mind.
+          </p>
+          <div class="contact-details">
+            <p><strong>Email:</strong> yourname@example.com</p>
+            <p><strong>Instagram:</strong> @yourhandle</p>
+            <p><strong>Location:</strong> Add your city and region</p>
+          </div>
+        </div>
+
+        <form class="contact-form">
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Your name">
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="your@email.com">
+          </label>
+          <label>
+            Project Type
+            <input type="text" name="project-type" placeholder="Portraits, event, brand, reel...">
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="6" placeholder="Tell me about your project"></textarea>
+          </label>
+          <a class="button button-primary" href="mailto:yourname@example.com?subject=Photography%20or%20Videography%20Inquiry">Email Kenneth</a>
+        </form>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
