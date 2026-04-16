@@ -633,6 +633,51 @@ img {
     linear-gradient(135deg, #7f9169, #394334);
 }
 
+.collection-art-graduation {
+  background:
+    linear-gradient(180deg, transparent, rgba(18, 13, 10, 0.64)),
+    url("images/portrait-card-graduation.jpg"),
+    linear-gradient(135deg, #cb9558, #6e4931);
+  background-size: cover;
+  background-position: center;
+}
+
+.collection-art-couples {
+  background:
+    linear-gradient(180deg, transparent, rgba(18, 13, 10, 0.64)),
+    url("images/portrait-card-couples.jpg"),
+    linear-gradient(135deg, #ce9f97, #734b48);
+  background-size: cover;
+  background-position: center;
+}
+
+.collection-art-business {
+  background:
+    linear-gradient(180deg, transparent, rgba(18, 13, 10, 0.64)),
+    url("images/portrait-card-business-marketing.jpg"),
+    linear-gradient(135deg, #4c5569, #1b2231);
+  background-size: cover;
+  background-position: center;
+}
+
+.collection-art-studio {
+  background:
+    linear-gradient(180deg, transparent, rgba(18, 13, 10, 0.64)),
+    url("images/portrait-card-studio.jpg"),
+    linear-gradient(135deg, #7f9169, #394334);
+  background-size: cover;
+  background-position: center;
+}
+
+.collection-art-uop {
+  background:
+    linear-gradient(180deg, transparent, rgba(18, 13, 10, 0.64)),
+    url("images/portrait-card-uop.jpg"),
+    linear-gradient(135deg, #cb9558, #6e4931);
+  background-size: cover;
+  background-position: center;
+}
+
 .collection-body,
 .school-card {
   padding: 1.6rem;
