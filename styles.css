@@ -678,6 +678,42 @@ img {
   background-position: center;
 }
 
+.collection-art-weddings {
+  background:
+    linear-gradient(180deg, transparent, rgba(18, 13, 10, 0.64)),
+    url("images/weddings-card.jpg"),
+    linear-gradient(135deg, #c68b70, #694234);
+  background-size: cover;
+  background-position: center;
+}
+
+.collection-art-maternity {
+  background:
+    linear-gradient(180deg, transparent, rgba(18, 13, 10, 0.64)),
+    url("images/maternity-card.jpg"),
+    linear-gradient(135deg, #d6b4a0, #7b5a4e);
+  background-size: cover;
+  background-position: center;
+}
+
+.collection-art-couple-portraits {
+  background:
+    linear-gradient(180deg, transparent, rgba(18, 13, 10, 0.64)),
+    url("images/couple-portraits-card.jpg"),
+    linear-gradient(135deg, #b57d74, #5b3837);
+  background-size: cover;
+  background-position: center;
+}
+
+.collection-art-engagements {
+  background:
+    linear-gradient(180deg, transparent, rgba(18, 13, 10, 0.64)),
+    url("images/engagements-card.jpg"),
+    linear-gradient(135deg, #8a9a7c, #40503e);
+  background-size: cover;
+  background-position: center;
+}
+
 .collection-body,
 .school-card {
   padding: 1.6rem;
