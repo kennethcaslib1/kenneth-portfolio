@@ -753,6 +753,194 @@ img {
   gap: 1.5rem;
 }
 
+.session-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.session-grid-even .session-card {
+  min-height: 17rem;
+}
+
+.session-card {
+  min-height: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 1.35rem;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+  color: #fff9f3;
+  transition: transform 180ms ease, box-shadow 180ms ease;
+  background-size: cover;
+  background-position: center;
+}
+
+.session-card:hover {
+  transform: translateY(-4px);
+}
+
+.session-card span {
+  display: inline-flex;
+  width: fit-content;
+  padding: 0.45rem 0.75rem;
+  margin-bottom: 0.75rem;
+  border-radius: 999px;
+  background: rgba(255, 248, 239, 0.88);
+  color: var(--text);
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
+.session-card h2 {
+  margin: 0;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(2rem, 3.2vw, 2.7rem);
+  line-height: 0.95;
+}
+
+.session-card-amber {
+  background:
+    linear-gradient(180deg, transparent, rgba(18, 13, 10, 0.74)),
+    linear-gradient(135deg, #c88c59, #5d3825);
+}
+
+.session-card-copper {
+  background:
+    linear-gradient(180deg, transparent, rgba(18, 13, 10, 0.74)),
+    linear-gradient(135deg, #ba7353, #59362a);
+}
+
+.session-card-olive {
+  background:
+    linear-gradient(180deg, transparent, rgba(18, 13, 10, 0.74)),
+    linear-gradient(135deg, #6a7e60, #2d3728);
+}
+
+.session-card-slate {
+  background:
+    linear-gradient(180deg, transparent, rgba(18, 13, 10, 0.74)),
+    linear-gradient(135deg, #68849a, #2e4657);
+}
+
+.session-card-sand {
+  background:
+    linear-gradient(180deg, transparent, rgba(18, 13, 10, 0.74)),
+    linear-gradient(135deg, #c1a48f, #6a5448);
+}
+
+.session-card-sydnee {
+  background:
+    linear-gradient(180deg, transparent, rgba(18, 13, 10, 0.74)),
+    url("images/uop-session-sydnee-25.jpg"),
+    linear-gradient(135deg, #c88c59, #5d3825);
+  background-size: cover;
+  background-position: center;
+}
+
+.session-card-alexis {
+  background:
+    linear-gradient(180deg, transparent, rgba(18, 13, 10, 0.74)),
+    url("images/uop-session-alexis-25.jpg"),
+    linear-gradient(135deg, #ba7353, #59362a);
+  background-size: cover;
+  background-position: center;
+}
+
+.session-card-mia {
+  background:
+    linear-gradient(180deg, transparent, rgba(18, 13, 10, 0.74)),
+    url("images/uop-session-mia-25.jpg"),
+    linear-gradient(135deg, #6a7e60, #2d3728);
+  background-size: cover;
+  background-position: center;
+}
+
+.session-card-terrance {
+  background:
+    linear-gradient(180deg, transparent, rgba(18, 13, 10, 0.74)),
+    url("images/uop-session-terrance-24.jpg"),
+    linear-gradient(135deg, #68849a, #2e4657);
+  background-size: cover;
+  background-position: center;
+}
+
+.client-gallery {
+  animation: rise 700ms ease both;
+}
+
+.gallery-photo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-auto-rows: 13rem;
+  gap: 1rem;
+}
+
+.gallery-photo {
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+  background:
+    linear-gradient(180deg, transparent, rgba(18, 13, 10, 0.18)),
+    linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5));
+  background-size: cover;
+  background-position: center;
+}
+
+.gallery-photo-large {
+  grid-row: span 2;
+}
+
+.gallery-photo-wide {
+  grid-column: span 2;
+}
+
+.gallery-sydnee-1 { background-image: url("images/uop-sydnee-1.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-sydnee-2 { background-image: url("images/uop-sydnee-2.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-sydnee-3 { background-image: url("images/uop-sydnee-3.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-sydnee-4 { background-image: url("images/uop-sydnee-4.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-sydnee-5 { background-image: url("images/uop-sydnee-5.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-sydnee-6 { background-image: url("images/uop-sydnee-6.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-sydnee-7 { background-image: url("images/uop-sydnee-7.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-sydnee-8 { background-image: url("images/uop-sydnee-8.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-sydnee-9 { background-image: url("images/uop-sydnee-9.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-sydnee-10 { background-image: url("images/uop-sydnee-10.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+
+.gallery-alexis-1 { background-image: url("images/uop-alexis-1.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-alexis-2 { background-image: url("images/uop-alexis-2.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-alexis-3 { background-image: url("images/uop-alexis-3.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-alexis-4 { background-image: url("images/uop-alexis-4.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-alexis-5 { background-image: url("images/uop-alexis-5.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-alexis-6 { background-image: url("images/uop-alexis-6.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-alexis-7 { background-image: url("images/uop-alexis-7.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-alexis-8 { background-image: url("images/uop-alexis-8.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-alexis-9 { background-image: url("images/uop-alexis-9.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-alexis-10 { background-image: url("images/uop-alexis-10.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+
+.gallery-mia-1 { background-image: url("images/uop-mia-1.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-mia-2 { background-image: url("images/uop-mia-2.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-mia-3 { background-image: url("images/uop-mia-3.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-mia-4 { background-image: url("images/uop-mia-4.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-mia-5 { background-image: url("images/uop-mia-5.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-mia-6 { background-image: url("images/uop-mia-6.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-mia-7 { background-image: url("images/uop-mia-7.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-mia-8 { background-image: url("images/uop-mia-8.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-mia-9 { background-image: url("images/uop-mia-9.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-mia-10 { background-image: url("images/uop-mia-10.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+
+.gallery-terrance-1 { background-image: url("images/uop-terrance-1.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-terrance-2 { background-image: url("images/uop-terrance-2.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-terrance-3 { background-image: url("images/uop-terrance-3.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-terrance-4 { background-image: url("images/uop-terrance-4.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-terrance-5 { background-image: url("images/uop-terrance-5.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-terrance-6 { background-image: url("images/uop-terrance-6.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-terrance-7 { background-image: url("images/uop-terrance-7.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-terrance-8 { background-image: url("images/uop-terrance-8.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-terrance-9 { background-image: url("images/uop-terrance-9.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-terrance-10 { background-image: url("images/uop-terrance-10.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+
 .gallery-lead {
   min-height: 22rem;
   display: flex;
@@ -1132,6 +1320,14 @@ img {
     grid-template-columns: 1fr 1fr;
   }
 
+  .session-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-photo-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
   .cta-band {
     flex-direction: column;
     align-items: flex-start;
@@ -1186,6 +1382,11 @@ img {
     grid-auto-rows: 12rem;
   }
 
+  .gallery-photo-grid {
+    grid-template-columns: 1fr;
+    grid-auto-rows: 12rem;
+  }
+
   .photo-tile-tall,
   .photo-tile-wide {
     grid-row: auto;
@@ -1194,6 +1395,12 @@ img {
 
   .video-clip-tile-tall,
   .video-clip-tile-wide {
+    grid-row: auto;
+    grid-column: auto;
+  }
+
+  .gallery-photo-large,
+  .gallery-photo-wide {
     grid-row: auto;
     grid-column: auto;
   }
