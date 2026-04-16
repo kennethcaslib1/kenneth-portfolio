@@ -921,10 +921,10 @@ img {
   background-position: center;
 }
 
-.session-card-qewani-david {
+.session-card-qewani-paul {
   background:
     linear-gradient(180deg, transparent, rgba(18, 13, 10, 0.74)),
-    url("images/wedding-card-qewani-david.jpg"),
+    url("images/wedding-card-qewani-paul.jpg"),
     linear-gradient(135deg, #6a7e60, #2d3728);
   background-size: cover;
   background-position: center;
@@ -1032,21 +1032,21 @@ img {
 .gallery-tj-kassandra-14 { background-image: url("images/tj-kassandra-14.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
 .gallery-tj-kassandra-15 { background-image: url("images/tj-kassandra-15.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
 
-.gallery-qewani-david-1 { background-image: url("images/qewani-david-1.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
-.gallery-qewani-david-2 { background-image: url("images/qewani-david-2.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
-.gallery-qewani-david-3 { background-image: url("images/qewani-david-3.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
-.gallery-qewani-david-4 { background-image: url("images/qewani-david-4.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
-.gallery-qewani-david-5 { background-image: url("images/qewani-david-5.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
-.gallery-qewani-david-6 { background-image: url("images/qewani-david-6.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
-.gallery-qewani-david-7 { background-image: url("images/qewani-david-7.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
-.gallery-qewani-david-8 { background-image: url("images/qewani-david-8.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
-.gallery-qewani-david-9 { background-image: url("images/qewani-david-9.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
-.gallery-qewani-david-10 { background-image: url("images/qewani-david-10.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
-.gallery-qewani-david-11 { background-image: url("images/qewani-david-11.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
-.gallery-qewani-david-12 { background-image: url("images/qewani-david-12.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
-.gallery-qewani-david-13 { background-image: url("images/qewani-david-13.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
-.gallery-qewani-david-14 { background-image: url("images/qewani-david-14.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
-.gallery-qewani-david-15 { background-image: url("images/qewani-david-15.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-qewani-paul-1 { background-image: url("images/qewani-paul-1.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-qewani-paul-2 { background-image: url("images/qewani-paul-2.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-qewani-paul-3 { background-image: url("images/qewani-paul-3.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-qewani-paul-4 { background-image: url("images/qewani-paul-4.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-qewani-paul-5 { background-image: url("images/qewani-paul-5.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-qewani-paul-6 { background-image: url("images/qewani-paul-6.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-qewani-paul-7 { background-image: url("images/qewani-paul-7.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-qewani-paul-8 { background-image: url("images/qewani-paul-8.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-qewani-paul-9 { background-image: url("images/qewani-paul-9.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-qewani-paul-10 { background-image: url("images/qewani-paul-10.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-qewani-paul-11 { background-image: url("images/qewani-paul-11.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-qewani-paul-12 { background-image: url("images/qewani-paul-12.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-qewani-paul-13 { background-image: url("images/qewani-paul-13.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-qewani-paul-14 { background-image: url("images/qewani-paul-14.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-qewani-paul-15 { background-image: url("images/qewani-paul-15.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
 .gallery-terrance-7 { background-image: url("images/uop-terrance-7.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
 .gallery-terrance-8 { background-image: url("images/uop-terrance-8.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
 .gallery-terrance-9 { background-image: url("images/uop-terrance-9.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
