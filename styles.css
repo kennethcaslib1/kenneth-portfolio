@@ -930,6 +930,42 @@ img {
   background-position: center;
 }
 
+.session-card-nabihah {
+  background:
+    linear-gradient(180deg, transparent, rgba(18, 13, 10, 0.74)),
+    url("images/sacstate-session-nabihah-25.jpg"),
+    linear-gradient(135deg, #6a7e60, #2d3728);
+  background-size: cover;
+  background-position: center;
+}
+
+.session-card-jo {
+  background:
+    linear-gradient(180deg, transparent, rgba(18, 13, 10, 0.74)),
+    url("images/sacstate-session-jo-25.jpg"),
+    linear-gradient(135deg, #c88c59, #5d3825);
+  background-size: cover;
+  background-position: center;
+}
+
+.session-card-banpreet {
+  background:
+    linear-gradient(180deg, transparent, rgba(18, 13, 10, 0.74)),
+    url("images/sacstate-session-banpreet-25.jpg"),
+    linear-gradient(135deg, #ba7353, #59362a);
+  background-size: cover;
+  background-position: center;
+}
+
+.session-card-mikos {
+  background:
+    linear-gradient(180deg, transparent, rgba(18, 13, 10, 0.74)),
+    url("images/sacstate-session-mikos-25.jpg"),
+    linear-gradient(135deg, #68849a, #2e4657);
+  background-size: cover;
+  background-position: center;
+}
+
 .client-gallery {
   animation: rise 700ms ease both;
 }
@@ -1047,6 +1083,34 @@ img {
 .gallery-qewani-paul-13 { background-image: url("images/qewani-paul-13.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
 .gallery-qewani-paul-14 { background-image: url("images/qewani-paul-14.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
 .gallery-qewani-paul-15 { background-image: url("images/qewani-paul-15.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-nabihah-1 { background-image: url("images/nabihah-1.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-nabihah-2 { background-image: url("images/nabihah-2.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-nabihah-3 { background-image: url("images/nabihah-3.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-nabihah-4 { background-image: url("images/nabihah-4.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-nabihah-5 { background-image: url("images/nabihah-5.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-nabihah-6 { background-image: url("images/nabihah-6.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-nabihah-7 { background-image: url("images/nabihah-7.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-jo-1 { background-image: url("images/jo-1.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-jo-2 { background-image: url("images/jo-2.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-jo-3 { background-image: url("images/jo-3.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-jo-4 { background-image: url("images/jo-4.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-jo-5 { background-image: url("images/jo-5.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-jo-6 { background-image: url("images/jo-6.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-jo-7 { background-image: url("images/jo-7.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-banpreet-1 { background-image: url("images/banpreet-1.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-banpreet-2 { background-image: url("images/banpreet-2.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-banpreet-3 { background-image: url("images/banpreet-3.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-banpreet-4 { background-image: url("images/banpreet-4.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-banpreet-5 { background-image: url("images/banpreet-5.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-banpreet-6 { background-image: url("images/banpreet-6.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-banpreet-7 { background-image: url("images/banpreet-7.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-mikos-1 { background-image: url("images/mikos-1.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-mikos-2 { background-image: url("images/mikos-2.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-mikos-3 { background-image: url("images/mikos-3.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-mikos-4 { background-image: url("images/mikos-4.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-mikos-5 { background-image: url("images/mikos-5.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-mikos-6 { background-image: url("images/mikos-6.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-mikos-7 { background-image: url("images/mikos-7.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
 .gallery-terrance-7 { background-image: url("images/uop-terrance-7.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
 .gallery-terrance-8 { background-image: url("images/uop-terrance-8.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
 .gallery-terrance-9 { background-image: url("images/uop-terrance-9.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
