@@ -769,25 +769,37 @@ img {
 .gallery-warm .gallery-visual {
   background:
     linear-gradient(180deg, transparent, rgba(18, 13, 10, 0.64)),
+    url("images/photography-cover-portraits.jpg"),
     linear-gradient(135deg, #d2a06d, #814b34);
+  background-size: cover;
+  background-position: center;
 }
 
 .gallery-night .gallery-visual {
   background:
     linear-gradient(180deg, transparent, rgba(18, 13, 10, 0.64)),
+    url("images/photography-cover-editorial.jpg"),
     linear-gradient(135deg, #43556c, #171d29);
+  background-size: cover;
+  background-position: center;
 }
 
 .gallery-earth .gallery-visual {
   background:
     linear-gradient(180deg, transparent, rgba(18, 13, 10, 0.64)),
+    url("images/photography-cover-lifestyle.jpg"),
     linear-gradient(135deg, #7b8a60, #36422f);
+  background-size: cover;
+  background-position: center;
 }
 
 .gallery-soft .gallery-visual {
   background:
     linear-gradient(180deg, transparent, rgba(18, 13, 10, 0.64)),
+    url("images/photography-cover-events.jpg"),
     linear-gradient(135deg, #d7b6a8, #7c5e57);
+  background-size: cover;
+  background-position: center;
 }
 
 .video-card {
