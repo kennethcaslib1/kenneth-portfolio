@@ -966,6 +966,24 @@ img {
   background-position: center;
 }
 
+.session-card-marissa {
+  background:
+    linear-gradient(180deg, transparent, rgba(18, 13, 10, 0.74)),
+    url("images/sacstate-session-marissa-23.jpg"),
+    linear-gradient(135deg, #b78a67, #5b4030);
+  background-size: cover;
+  background-position: center;
+}
+
+.session-card-bri {
+  background:
+    linear-gradient(180deg, transparent, rgba(18, 13, 10, 0.74)),
+    url("images/sacstate-session-bri-23.jpg"),
+    linear-gradient(135deg, #8d7767, #4a3e37);
+  background-size: cover;
+  background-position: center;
+}
+
 .client-gallery {
   animation: rise 700ms ease both;
 }
@@ -1111,6 +1129,20 @@ img {
 .gallery-mikos-5 { background-image: url("images/mikos-5.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
 .gallery-mikos-6 { background-image: url("images/mikos-6.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
 .gallery-mikos-7 { background-image: url("images/mikos-7.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-marissa-1 { background-image: url("images/marissa-1.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-marissa-2 { background-image: url("images/marissa-2.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-marissa-3 { background-image: url("images/marissa-3.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-marissa-4 { background-image: url("images/marissa-4.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-marissa-5 { background-image: url("images/marissa-5.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-marissa-6 { background-image: url("images/marissa-6.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-marissa-7 { background-image: url("images/marissa-7.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-bri-1 { background-image: url("images/bri-1.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-bri-2 { background-image: url("images/bri-2.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-bri-3 { background-image: url("images/bri-3.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-bri-4 { background-image: url("images/bri-4.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-bri-5 { background-image: url("images/bri-5.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-bri-6 { background-image: url("images/bri-6.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-bri-7 { background-image: url("images/bri-7.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
 .gallery-terrance-7 { background-image: url("images/uop-terrance-7.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
 .gallery-terrance-8 { background-image: url("images/uop-terrance-8.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
 .gallery-terrance-9 { background-image: url("images/uop-terrance-9.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
