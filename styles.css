@@ -903,6 +903,33 @@ img {
   background-position: center;
 }
 
+.session-card-krystal-david {
+  background:
+    linear-gradient(180deg, transparent, rgba(18, 13, 10, 0.74)),
+    url("images/wedding-card-krystal-david.jpg"),
+    linear-gradient(135deg, #c88c59, #5d3825);
+  background-size: cover;
+  background-position: center;
+}
+
+.session-card-tj-kassandra {
+  background:
+    linear-gradient(180deg, transparent, rgba(18, 13, 10, 0.74)),
+    url("images/wedding-card-tj-kassandra.jpg"),
+    linear-gradient(135deg, #ba7353, #59362a);
+  background-size: cover;
+  background-position: center;
+}
+
+.session-card-qewani-david {
+  background:
+    linear-gradient(180deg, transparent, rgba(18, 13, 10, 0.74)),
+    url("images/wedding-card-qewani-david.jpg"),
+    linear-gradient(135deg, #6a7e60, #2d3728);
+  background-size: cover;
+  background-position: center;
+}
+
 .client-gallery {
   animation: rise 700ms ease both;
 }
@@ -972,6 +999,30 @@ img {
 .gallery-terrance-4 { background-image: url("images/uop-terrance-4.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
 .gallery-terrance-5 { background-image: url("images/uop-terrance-5.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
 .gallery-terrance-6 { background-image: url("images/uop-terrance-6.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+
+.gallery-krystal-david-1 { background-image: url("images/krystal-david-1.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-krystal-david-2 { background-image: url("images/krystal-david-2.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-krystal-david-3 { background-image: url("images/krystal-david-3.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-krystal-david-4 { background-image: url("images/krystal-david-4.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-krystal-david-5 { background-image: url("images/krystal-david-5.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-krystal-david-6 { background-image: url("images/krystal-david-6.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-krystal-david-7 { background-image: url("images/krystal-david-7.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+
+.gallery-tj-kassandra-1 { background-image: url("images/tj-kassandra-1.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-tj-kassandra-2 { background-image: url("images/tj-kassandra-2.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-tj-kassandra-3 { background-image: url("images/tj-kassandra-3.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-tj-kassandra-4 { background-image: url("images/tj-kassandra-4.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-tj-kassandra-5 { background-image: url("images/tj-kassandra-5.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-tj-kassandra-6 { background-image: url("images/tj-kassandra-6.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-tj-kassandra-7 { background-image: url("images/tj-kassandra-7.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+
+.gallery-qewani-david-1 { background-image: url("images/qewani-david-1.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-qewani-david-2 { background-image: url("images/qewani-david-2.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-qewani-david-3 { background-image: url("images/qewani-david-3.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-qewani-david-4 { background-image: url("images/qewani-david-4.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-qewani-david-5 { background-image: url("images/qewani-david-5.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-qewani-david-6 { background-image: url("images/qewani-david-6.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
+.gallery-qewani-david-7 { background-image: url("images/qewani-david-7.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
 .gallery-terrance-7 { background-image: url("images/uop-terrance-7.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
 .gallery-terrance-8 { background-image: url("images/uop-terrance-8.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
 .gallery-terrance-9 { background-image: url("images/uop-terrance-9.jpg"), linear-gradient(135deg, rgba(193, 164, 143, 0.6), rgba(104, 132, 154, 0.5)); }
