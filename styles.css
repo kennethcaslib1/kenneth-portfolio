@@ -709,25 +709,37 @@ img {
 .school-card-uop {
   background:
     linear-gradient(180deg, transparent, rgba(18, 13, 10, 0.72)),
+    url("images/graduation-card-uop.jpg"),
     linear-gradient(135deg, #b9784d, #5e3725);
+  background-size: cover;
+  background-position: center;
 }
 
 .school-card-sac {
   background:
     linear-gradient(180deg, transparent, rgba(18, 13, 10, 0.72)),
+    url("images/graduation-card-sac-state.jpg"),
     linear-gradient(135deg, #6c8361, #304028);
+  background-size: cover;
+  background-position: center;
 }
 
 .school-card-davis {
   background:
     linear-gradient(180deg, transparent, rgba(18, 13, 10, 0.72)),
+    url("images/graduation-card-uc-davis.jpg"),
     linear-gradient(135deg, #63829a, #284256);
+  background-size: cover;
+  background-position: center;
 }
 
 .school-card-classic {
   background:
     linear-gradient(180deg, transparent, rgba(18, 13, 10, 0.72)),
+    url("images/graduation-card-classic.jpg"),
     linear-gradient(135deg, #b8a08c, #5f4b3e);
+  background-size: cover;
+  background-position: center;
 }
 
 .school-card h2,
