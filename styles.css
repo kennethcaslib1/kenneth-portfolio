@@ -159,11 +159,25 @@ img {
   animation: rise 700ms ease both;
 }
 
+.home-stage,
+.home-routes,
+.home-showcase,
+.home-cta {
+  animation: rise 700ms ease both;
+}
+
 .hero {
   display: grid;
   grid-template-columns: 1.3fr 0.9fr;
   gap: 1.5rem;
   align-items: stretch;
+  margin-bottom: 1.5rem;
+}
+
+.home-stage {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 1.5rem;
   margin-bottom: 1.5rem;
 }
 
@@ -185,11 +199,29 @@ img {
   box-shadow: var(--shadow);
 }
 
+.home-stage-copy,
+.home-stage-visual,
+.home-route,
+.home-showcase-copy,
+.home-showcase-grid,
+.home-cta {
+  border: 1px solid var(--line);
+  background: var(--surface);
+  backdrop-filter: blur(18px);
+  box-shadow: var(--shadow);
+}
+
 .hero-copy,
 .signature-copy,
 .page-hero,
 .about-copy,
 .contact-copy {
+  padding: clamp(1.7rem, 2vw, 3rem);
+  border-radius: var(--radius-lg);
+}
+
+.home-stage-copy,
+.home-showcase-copy {
   padding: clamp(1.7rem, 2vw, 3rem);
   border-radius: var(--radius-lg);
 }
@@ -214,6 +246,14 @@ img {
   line-height: 0.92;
 }
 
+.home-stage-copy h1 {
+  margin: 0.4rem 0 1rem;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(4rem, 7vw, 7rem);
+  line-height: 0.88;
+  letter-spacing: -0.04em;
+}
+
 .hero-text,
 .page-hero p,
 .feature-card p,
@@ -233,6 +273,24 @@ img {
   flex-wrap: wrap;
   gap: 0.85rem;
   margin-top: 2rem;
+}
+
+.home-stage-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-top: 1.8rem;
+}
+
+.home-stage-chips span {
+  display: inline-flex;
+  padding: 0.75rem 1rem;
+  border-radius: 999px;
+  background: rgba(255, 248, 239, 0.72);
+  border: 1px solid rgba(31, 23, 18, 0.08);
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--muted);
 }
 
 .button {
@@ -263,6 +321,13 @@ img {
 }
 
 .hero-panel {
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: var(--radius-lg);
+}
+
+.home-stage-visual {
   display: grid;
   gap: 1rem;
   padding: 1rem;
@@ -328,6 +393,251 @@ img {
 .stat-card .stat-label {
   color: rgba(255, 245, 233, 0.78);
   margin-bottom: 0.6rem;
+}
+
+.home-stage-frame,
+.home-note,
+.home-showcase-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius-md);
+}
+
+.home-stage-frame {
+  min-height: 25rem;
+  display: flex;
+  align-items: end;
+  padding: 1.35rem;
+  background:
+    linear-gradient(180deg, rgba(12, 8, 5, 0.04), rgba(12, 8, 5, 0.72)),
+    url("images/site-background.jpg"),
+    linear-gradient(135deg, #b98560, #4d3b34);
+  background-size: cover;
+  background-position: center;
+}
+
+.home-stage-frame-copy {
+  max-width: 24rem;
+  color: #fffaf4;
+}
+
+.home-stage-frame-copy h2 {
+  margin: 0.45rem 0 0;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(2.1rem, 4vw, 3.3rem);
+  line-height: 0.96;
+}
+
+.home-stage-stack {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.home-note {
+  min-height: 7.1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0.85rem;
+  color: white;
+}
+
+.home-note strong {
+  font-size: 0.82rem;
+  line-height: 1.32;
+}
+
+.home-note .stat-label {
+  display: inline-flex;
+  width: fit-content;
+  margin-bottom: 0.42rem;
+  padding: 0.32rem 0.56rem;
+  border-radius: 999px;
+  background: rgba(255, 248, 239, 0.86);
+  color: var(--accent-deep);
+  font-size: 0.62rem;
+  letter-spacing: 0.14em;
+}
+
+.home-note-focus {
+  background:
+    linear-gradient(180deg, transparent, rgba(20, 17, 15, 0.74)),
+    url("images/home-focus.jpg"),
+    linear-gradient(135deg, rgba(183, 105, 63, 0.72), rgba(83, 97, 78, 0.7));
+  background-size: cover;
+  background-position: center;
+}
+
+.home-note-style {
+  background:
+    linear-gradient(180deg, transparent, rgba(20, 17, 15, 0.74)),
+    url("images/home-style.jpg"),
+    linear-gradient(135deg, rgba(183, 105, 63, 0.72), rgba(83, 97, 78, 0.7));
+  background-size: cover;
+  background-position: center;
+}
+
+.home-note-available {
+  background:
+    linear-gradient(180deg, transparent, rgba(20, 17, 15, 0.74)),
+    url("images/home-available.jpg"),
+    linear-gradient(135deg, rgba(183, 105, 63, 0.72), rgba(83, 97, 78, 0.7));
+  background-size: cover;
+  background-position: center;
+}
+
+.home-routes {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.home-route {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 15rem;
+  padding: 1.2rem;
+  border-radius: var(--radius-lg);
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.home-route:hover,
+.home-showcase-card:hover {
+  transform: translateY(-4px);
+}
+
+.home-route .card-tag,
+.home-route h2,
+.home-route .card-arrow {
+  width: fit-content;
+}
+
+.home-route h2 {
+  margin: 0.45rem 0 0;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(1.35rem, 2.4vw, 1.95rem);
+  line-height: 0.96;
+  max-width: 9ch;
+}
+
+.home-route .card-tag {
+  padding: 0.34rem 0.62rem;
+  border-radius: 999px;
+  background: rgba(255, 248, 239, 0.86);
+  font-size: 0.66rem;
+  letter-spacing: 0.13em;
+}
+
+.home-route .card-arrow {
+  margin-top: 0.7rem;
+  padding: 0.42rem 0.68rem;
+  border-radius: 999px;
+  background: rgba(255, 248, 239, 0.88);
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+}
+
+.home-route-photo {
+  background:
+    linear-gradient(180deg, rgba(12, 8, 5, 0.02), rgba(12, 8, 5, 0.6)),
+    url("images/home-route-photography.jpg"),
+    linear-gradient(135deg, #b77b59, #4f3b34);
+  background-size: cover;
+  background-position: center;
+  color: #fff9f3;
+}
+
+.home-route-video {
+  background:
+    linear-gradient(180deg, rgba(12, 8, 5, 0.02), rgba(12, 8, 5, 0.6)),
+    url("images/home-route-videography.jpg"),
+    linear-gradient(135deg, #607269, #31413e);
+  background-size: cover;
+  background-position: center;
+  color: #fff9f3;
+}
+
+.home-route-contact {
+  background:
+    linear-gradient(180deg, rgba(12, 8, 5, 0.02), rgba(12, 8, 5, 0.6)),
+    url("images/home-route-contact.jpg"),
+    linear-gradient(135deg, #a96a51, #613528);
+  background-size: cover;
+  background-position: center;
+  color: #fff9f3;
+}
+
+.home-showcase {
+  display: grid;
+  grid-template-columns: 0.86fr 1.14fr;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.home-showcase-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: var(--radius-lg);
+}
+
+.home-showcase-card {
+  min-height: 16rem;
+  display: flex;
+  align-items: end;
+  padding: 1.25rem;
+  background-size: cover;
+  background-position: center;
+}
+
+.home-showcase-card span {
+  padding: 0.55rem 0.85rem;
+  border-radius: 999px;
+  background: rgba(255, 248, 239, 0.88);
+  font-weight: 700;
+}
+
+.home-showcase-card-portraits {
+  grid-row: span 2;
+  min-height: 100%;
+  background:
+    linear-gradient(180deg, transparent, rgba(17, 11, 8, 0.65)),
+    url("images/home-portrait-sessions.jpg"),
+    linear-gradient(135deg, #d39a62, #5c4738);
+  background-size: cover;
+  background-position: center;
+}
+
+.home-showcase-card-events {
+  background:
+    linear-gradient(180deg, transparent, rgba(17, 11, 8, 0.65)),
+    url("images/home-event-coverage.jpg"),
+    linear-gradient(135deg, #546a60, #2f3836);
+  background-size: cover;
+  background-position: center;
+}
+
+.home-showcase-card-brand {
+  background:
+    linear-gradient(180deg, transparent, rgba(17, 11, 8, 0.65)),
+    url("images/home-brand-storytelling.jpg"),
+    linear-gradient(135deg, #b7693f, #6d3725);
+  background-size: cover;
+  background-position: center;
+}
+
+.home-cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.75rem 2rem;
+  border-radius: var(--radius-lg);
+  background: linear-gradient(135deg, rgba(255, 249, 242, 0.78), rgba(234, 220, 200, 0.88));
 }
 
 .section-grid {
@@ -1556,6 +1866,9 @@ img {
   }
 
   .hero,
+  .home-stage,
+  .home-routes,
+  .home-showcase,
   .signature-section,
   .gallery-grid,
   .video-card,
@@ -1589,9 +1902,20 @@ img {
     grid-template-columns: 1fr 1fr;
   }
 
-  .cta-band {
+  .cta-band,
+  .home-cta {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .home-stage-stack,
+  .home-routes,
+  .home-showcase-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .home-showcase-card-portraits {
+    min-height: 16rem;
   }
 }
 
@@ -1612,8 +1936,14 @@ img {
     font-size: clamp(2.5rem, 12vw, 4rem);
   }
 
+  .home-stage-copy h1 {
+    font-size: clamp(3rem, 13vw, 4.3rem);
+  }
+
   .feature-card,
   .hero-copy,
+  .home-stage-copy,
+  .home-showcase-copy,
   .signature-copy,
   .page-hero,
   .gallery-copy,
@@ -1627,6 +1957,8 @@ img {
   .gallery-visual,
   .video-frame,
   .portrait-panel,
+  .home-stage-frame,
+  .home-showcase-card,
   .about-portrait-image,
   .collection-art,
   .gallery-lead {
