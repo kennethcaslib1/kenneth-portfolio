@@ -669,6 +669,15 @@ img {
   background-position: center;
 }
 
+.collection-art-portrait-sessions {
+  background:
+    linear-gradient(180deg, transparent, rgba(18, 13, 10, 0.64)),
+    url("images/portrait-card-portrait-sessions.jpg"),
+    linear-gradient(135deg, #a08f82, #514742);
+  background-size: cover;
+  background-position: center;
+}
+
 .collection-art-studio {
   background:
     linear-gradient(180deg, transparent, rgba(18, 13, 10, 0.64)),
