@@ -660,6 +660,15 @@ img {
   background-position: center;
 }
 
+.collection-art-family {
+  background:
+    linear-gradient(180deg, transparent, rgba(18, 13, 10, 0.64)),
+    url("images/portrait-card-family.jpg"),
+    linear-gradient(135deg, #b79a86, #5e4a43);
+  background-size: cover;
+  background-position: center;
+}
+
 .collection-art-studio {
   background:
     linear-gradient(180deg, transparent, rgba(18, 13, 10, 0.64)),
