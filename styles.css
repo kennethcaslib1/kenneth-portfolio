@@ -714,6 +714,42 @@ img {
   background-position: center;
 }
 
+.collection-art-bystndrs {
+  background:
+    linear-gradient(180deg, transparent, rgba(18, 13, 10, 0.64)),
+    url("images/business-card-bystndrs.jpg"),
+    linear-gradient(135deg, #6b747f, #232a35);
+  background-size: cover;
+  background-position: center;
+}
+
+.collection-art-jerry {
+  background:
+    linear-gradient(180deg, transparent, rgba(18, 13, 10, 0.64)),
+    url("images/business-card-jerry-mcnerney.jpg"),
+    linear-gradient(135deg, #9d897b, #4c4039);
+  background-size: cover;
+  background-position: center;
+}
+
+.collection-art-dream-ice-cream {
+  background:
+    linear-gradient(180deg, transparent, rgba(18, 13, 10, 0.64)),
+    url("images/business-card-dream-ice-cream.jpg"),
+    linear-gradient(135deg, #d59a8f, #7a4f57);
+  background-size: cover;
+  background-position: center;
+}
+
+.collection-art-ulululanis {
+  background:
+    linear-gradient(180deg, transparent, rgba(18, 13, 10, 0.64)),
+    url("images/business-card-ulululanis.jpg"),
+    linear-gradient(135deg, #9bb8b2, #36525a);
+  background-size: cover;
+  background-position: center;
+}
+
 .collection-body,
 .school-card {
   padding: 1.6rem;
